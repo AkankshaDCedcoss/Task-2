@@ -12,6 +12,34 @@
       type="text/css"
     />-->
     <style>
+      .injected-text {
+        margin-bottom: -25px;
+        text-align: center;
+      }
+
+      .box {
+        border-style: solid;
+        border-color: black;
+        border-width: 5px;
+        text-align: center;
+      }
+
+      .yellow-box {
+        background-color: yellow;
+        padding: 10px;
+      }
+
+      .red-box {
+        background-color: crimson;
+        color: #fff;
+        padding: 20px;
+      }
+
+      .blue-box {
+        background-color: blue;
+        color: #fff;
+        padding: 20px; /* Adjust the Padding of an Element subtask 16 */
+      }
       #cat-photo-form {
         background-color: green; /* Use an id Attribute to Style an Element subtask 15 */
       }
@@ -22,9 +50,8 @@
         border-color: green; /* Add Borders Around Your Elements subtask 10 */
         border-width: 10px;
         border-style: solid;
-        border-radius :50%; /* Make Circular Images with a border-radius subtask 12 */
-        border-radius :10px; /* Add Rounded Corners with border-radius subtask 11 */
-
+        border-radius: 50%; /* Make Circular Images with a border-radius subtask 12 */
+        border-radius: 10px; /* Add Rounded Corners with border-radius subtask 11 */
       }
       .smaller-image {
         width: 100px; /* Size Your Images subtask 9 */
@@ -71,6 +98,12 @@
           <li>thunder</li>
           <li>other cats</li>
         </ol>
+      </div>
+      <h5 class="injected-text">margin</h5>
+
+      <div class="box yellow-box">
+        <h5 class="box red-box">padding</h5>
+        <h5 class="box blue-box">padding</h5>
       </div>
 
       <form
